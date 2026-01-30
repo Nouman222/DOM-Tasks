@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" async></script>
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Add Product</h2>
+
+        <form id="form">
+            <label>Product URL</label>
+            <input name="productUrl" type="url" placeholder="Enter product URL" required>
+
+            <label>Product Title</label>
+            <input name="title" type="text" placeholder="Enter product title" required>
+
+            <label>Description</label>
+            <textarea name="description" placeholder="Enter product description" required></textarea>
+
+            <label>Price</label>
+            <input name="price" type="number" placeholder="Enter price" required>
+
+            <button type="submit">Submit Product</button>
+        </form>
+    </div>
+    <div id="product_list"></div>
+
+
+</body>
+</html>
