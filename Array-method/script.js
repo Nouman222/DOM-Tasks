@@ -1,10 +1,10 @@
-let products = [
-  { name: "Laptop", price: 1000, inStock: true },
-  { name: "Mouse", price: 25, inStock: true },
-  { name: "Keyboard", price: 75, inStock: false },
-  { name: "Monitor", price: 200, inStock: true },
-  { name: "USB Cable", price: 10, inStock: false }
-];
+// let products = [
+//   { name: "Laptop", price: 1000, inStock: true },
+//   { name: "Mouse", price: 25, inStock: true },
+//   { name: "Keyboard", price: 75, inStock: false },
+//   { name: "Monitor", price: 200, inStock: true },
+//   { name: "USB Cable", price: 10, inStock: false }
+// ];
 // Create a new array productNames with only the product names.
 // let productNames = products.map(pName=>pName.name)
 // console.log(productNames)
@@ -28,3 +28,10 @@ let products = [
 // Check if all products are in stock (true/false).
 // let inStock = products.every(stock => stock.inStock==true)
 // console.log(inStock)
+
+// let a =[1,2,3,4,5]
+// console.log(a)
+// a.slice(1,3)
+// a.splice(1,1,10)
+// console.log(a)
+
